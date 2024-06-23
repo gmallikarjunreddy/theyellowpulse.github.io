@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    background-color:  rgb(27, 25, 25);
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;  
+}
+.navbarleft{
+    padding-left: 50px  ;
+}
+.navbarright{
+    display: flex;
+    padding-right: 10px;
+    align-items: center;   
+}
+.a{
+    padding: 10px;
+    margin: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#calculator { 
+     
+    padding: 25px; 
+    width: 500px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    color: white;
+} 
+  
+button { 
+    margin-top: 15px; 
+    padding: 12px 20px; 
+    background-color:  rgb(65, 116, 107); 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 14px; 
+} 
+  
+li { 
+    margin-bottom: 10px; 
+    list-style-type: none; 
+} 
+  
+input, 
+select { 
+    width: calc(100% - 15px); 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    font-size: 14px; 
+} 
+  
+h2, 
+h3 { 
+    margin-bottom: 20px; 
+    color: #333; 
+} 
+  
+#cgpa { 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #4caf50; 
+} 
+  
+#subjectList { 
+    text-align: left; 
+} 
+  
+button.edit, 
+button.delete { 
+    padding: 8px 15px; 
+    margin-left: 5px; 
+    font-size: 12px; 
+    cursor: pointer; 
+} 
+  
+button.delete { 
+    background-color: #d9534f; 
+} 
+  
+.error { 
+    color: #d9534f; 
+    font-size: 16px; 
+  
+} 
+  
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+} 
+  
+th, 
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 
+  
+
+.CGPA {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 160px;
+}
+.heading{
+    color: white;
+}
